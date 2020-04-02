@@ -4,53 +4,43 @@
 <head>
     <title>The Generics | Store</title>
     <meta name="description" content="This is the description">
-    <link rel="stylesheet" href="styles.css" />
-    <script src="store.js" async></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" async></script>
 </head>
 
 <body>
-    <header class="main-header">
-        <nav class="main-nav nav">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="store.html">STORE</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-            </ul>
-        </nav>
-        <h1 class="band-name band-name-large">The Generics</h1>
-    </header>
     <section class="container content-section">
         <h2 class="section-header">MUSIC</h2>
         <div class="shop-items">
             <div class="shop-item">
                 <span class="shop-item-title">Album 1</span>
-                <img class="shop-item-image" src="Images/Album 1.png">
+                <img class="shop-item-image" src="https://www.telltalesonline.com/wp-content/uploads/2014/10/Maroon-5-V.jpg ">
                 <div class="shop-item-details">
-                    <span class="shop-item-price">$12.99</span>
+                    <span class="shop-item-price">300.000</span>
                     <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
             <div class="shop-item">
                 <span class="shop-item-title">Album 2</span>
-                <img class="shop-item-image" src="Images/Album 2.png">
+                <img class="shop-item-image" src="https://dep.com.vn/Uploaded/thanhnt/2012_08_13/1-sua.jpg">
                 <div class="shop-item-details">
-                    <span class="shop-item-price">$14.99</span>
+                    <span class="shop-item-price">320.000VND</span>
                     <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
             <div class="shop-item">
                 <span class="shop-item-title">Album 3</span>
-                <img class="shop-item-image" src="Images/Album 3.png">
+                <img class="shop-item-image" src="https://i.scdn.co/image/ab67616d0000b273c98af859e9b24d3a6c1c72bb">
                 <div class="shop-item-details">
-                    <span class="shop-item-price">$9.99</span>
+                    <span class="shop-item-price">220.000VND</span>
                     <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
             <div class="shop-item">
                 <span class="shop-item-title">Album 4</span>
-                <img class="shop-item-image" src="Images/Album 4.png">
+                <img class="shop-item-image" src="data:image/jpeg;base64,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">
                 <div class="shop-item-details">
-                    <span class="shop-item-price">$19.99</span>
+                    <span class="shop-item-price">350.000 VND</span>
                     <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
@@ -61,17 +51,17 @@
         <div class="shop-items">
             <div class="shop-item">
                 <span class="shop-item-title">T-Shirt</span>
-                <img class="shop-item-image" src="Images/Shirt.png">
+                <img class="shop-item-image" src="https://www.arabiacart.com/image/cache/catalog/product-5238/IuPGWEpYKf-hmprod%20(2)-700x755.jpg">
                 <div class="shop-item-details">
-                    <span class="shop-item-price">$19.99</span>
+                    <span class="shop-item-price">420.000 VND</span>
                     <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
             <div class="shop-item">
                 <span class="shop-item-title">Coffee Cup</span>
-                <img class="shop-item-image" src="Images/Cofee.png">
+                <img class="shop-item-image" src="https://i.pinimg.com/originals/b9/23/cf/b923cf0aad7ededc8b66043c66904fa1.jpg">
                 <div class="shop-item-details">
-                    <span class="shop-item-price">$6.99</span>
+                    <span class="shop-item-price">300.000 VND</span>
                     <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </div>
@@ -88,32 +78,11 @@
         </div>
         <div class="cart-total">
             <strong class="cart-total-title">Total</strong>
-            <span class="cart-total-price">$0</span>
+            <span class="cart-total-price">0 VND</span>
         </div>
         <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
     </section>
-    <footer class="main-footer">
-        <div class="container main-footer-container">
-            <h3 class="band-name">The Generics</h3>
-            <ul class="nav footer-nav">
-                <li>
-                    <a href="https://www.youtube.com" target="_blank">
-                        <img src="Images/YouTube Logo.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.spotify.com" target="_blank">
-                        <img src="Images/Spotify Logo.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com" target="_blank">
-                        <img src="Images/Facebook Logo.png">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+
 </body>
 
 </html>
